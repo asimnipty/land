@@ -172,7 +172,7 @@ export default function AuthScreen({ lang, setLang, onLogin }: AuthScreenProps) 
               className="w-full border border-emerald-800 text-emerald-800 hover:bg-emerald-50 font-semibold py-2 rounded-lg text-sm transition flex items-center justify-center gap-2"
             >
               <Sparkles className="h-4 w-4" />
-              {lang === "bn" ? "게স্ট হিসেবে সরাসরি প্রবেশ করুন (কোন পাসওয়ার্ড ছাড়া)" : "Explore in Guest Mode (Offline)"}
+              {lang === "bn" ? "গেস্ট হিসেবে সরাসরি প্রবেশ করুন (কোন পাসওয়ার্ড ছাড়া)" : "Explore in Guest Mode (Offline)"}
             </button>
           </div>
         </div>
